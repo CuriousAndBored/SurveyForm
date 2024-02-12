@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(240, 55%, 70%);
+}
+.header{
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+h1, .subtitle {
+  text-align: center;
+  margin: 10px;
+  color: rgb(255,240,255);
+}
+.subtitle{
+  text-shadow: 1px 1px hsl(260, 90%, 40%);
+}
+h1{
+  font-size: 32px;
+}
+.subtitle{
+  font-size: 19;
+}
+
+.form{
+  width: 600px;
+  margin: 10px auto;
+  padding: 30px;
+  border-style: none;
+  background-color: rgba(11, 11, 69, 0.8);
+  /* hsl(240, 60%, 20%) */
+}
+article{
+  /* border-style: solid; */
+  margin: 12px;
+}
+p{
+  text-align: left;
+  margin: 6px;
+  margin-left: 0px;
+}
+p, .radio, .checkboxed, legend{
+  color: rgb(255,240,255);
+}
+p, input, select, legend, .checkboxed, textarea, .submit{
+  font-size: 19px;
+}
+.radio, .checkbox{
+  margin: 7px;
+}
+.response, select, textarea{
+  padding: 5px;
+  width: 570px;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+Input[type=radio], Input[type=checkbox]{
+  /* border: px;
+    width: 5%;
+    height: 1em; */
+    margin-right: 15px;
+    margin-bottom: 10px;
+    transform: scale(1.5);
+}
+.submit{
+  padding: 15px;
+  width: 570px;
+  border-radius: 5px;
+  color: rgb(255,240,255);
+  background-color: hsl(120, 40%, 40%);
+  border-style: none;
+}
